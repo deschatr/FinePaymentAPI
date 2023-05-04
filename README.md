@@ -17,7 +17,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 # also needed for migration
 dotnet tool install --global dotnet-ef
 
-# to accept dev certificated
+# to accept dev certificates
 dotnet dev-certs https --trust
 
 API endpoints:<br>
