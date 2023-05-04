@@ -2,13 +2,15 @@
 
 Back-end API of the application ot process fine payments.
 
-Creation instructions:
-dotnet new webapi
+Creation instructions:<br>
+dotnet new webapi<br>
 dotnet new gitignore
 
 # moved to sql server
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+!! The sql database has been deleted, and the connection details are not valid anymore (this would not be shared publicly otherwise!)
+
 # for migration purposes
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
