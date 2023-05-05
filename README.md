@@ -20,7 +20,7 @@ dotnet tool install --global dotnet-ef
 # to accept dev certificates
 dotnet dev-certs https --trust
 
-API endpoints:<br>
+# API endpoints:<br>
 /api/finepayments [GET] returns List<FinePayment> or NotFound, [POST] accepts FinePayment<br>
 /api/finepayments/{id} [GET] returns FinePayment or NotFound, [PUT] accepts FinePayment<br>
 /api/finepayments/search [GET] parameters: caseref, onlineaccountref, returns FinePayment or NotFound<br>
